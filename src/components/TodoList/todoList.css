@@ -1,0 +1,71 @@
+.checkmark {
+  height: 30px;
+  width: 36px;
+  border: 2px solid #8e102d;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+.todoListMain input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  width: 165px;
+}
+.todoListMain .addBtn {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+.todoListMain .addBtn:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.todoListMain .list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+.todoListMain .list li {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px 0;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  text-align: left;
+}
+ul.list {
+  padding: 0;
+}
+.todoListMain {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #d1b1cb;
+  vertical-align: middle;
+}
+.delete {
+  float: right;
+}
+.delete {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  margin: 0px;
+  margin-right: 10px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+.delete:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}

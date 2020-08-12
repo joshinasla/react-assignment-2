@@ -1,0 +1,21 @@
+.header {
+  background-color: #7c616c;
+  max-width: 500px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.date {
+  float: left;
+  padding-left: 20px;
+}
+.remaining-class {
+  float: right;
+}
